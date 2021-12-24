@@ -1,1 +1,8 @@
+# Arion System Hosts File
+
+# Do not remove this localhost entry
+# Various things may break if you do
 127.0.0.1	localhost
+
+# Add further host entries here
+# 10.1.1.0	example example.lan

@@ -1,5 +1,5 @@
-PACKAGE=alpine-baselayout
-VERSION=2.2.0
+PACKAGE=arion-baselayout
+VERSION=1.0.0
 
 PV 		=$(PACKAGE)-$(VERSION)
 TARBALL 	=$(PV).tar.bz2
@@ -23,7 +23,7 @@ ETC_FILES 	= TZ \
 
 MODPROBED_FILES	=aliases.conf blacklist.conf i386.conf kms.conf
 PROFILED_FILES  =color_prompt
-SYSCTL_FILES	=00-alpine.conf
+SYSCTL_FILES	=00-arion.conf
 CRONTABS 	=crontab
 DISTFILES 	=$(ETC_FILES) $(SYSCTL_FILES) $(MODPROBED_FILES) Makefile
 
